@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Roboto+Slab&display=swap');
+
+
+
+
+
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+
+}
+
+:root{
+    --White: hsl(0, 0%, 100%);
+--Light-gray: hsl(212, 45%, 89%);
+--Grayish-blue: hsl(220, 15%, 55%);
+--Dark-blue: hsl(218, 44%, 22%);
+}
+
+.container {
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Light-gray);
+
+}
+
+.scan {
+
+    background-color: var(--White);
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 13px;
+    
+
+
+}
+img{
+width: 100%;
+border-radius: inherit;
+}
+.scan h2{
+    margin: 14px 0px;
+    text-align: center;
+    font-size: 18px;
+    padding: 0px 5px;
+    color: var(--Dark-blue);
+}
+.scan p{
+    margin-bottom :18px;
+    text-align: center;
+    font-size: 13px;
+    padding: 0px 5px;
+    color: var(--Grayish-blue);
+}
+
